@@ -4,10 +4,23 @@ body {
     text-decoration: none;
     text-align:center;
 }
-#intro {
+.intro-picture {
+    width:100%;
+    object-fit: contain;
+}
+#intropic {
+    opacity:0.8;
+}
+.intro {
     width:70%;
     margin:auto;
     text-align: center;
     font-size:50px;
     height:100%;
+}
+.footer {
+    background-color:black;
+    color:white;
+    padding-bottom:50px;
+    padding-top:25px;
 }
